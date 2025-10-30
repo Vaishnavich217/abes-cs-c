@@ -1,9 +1,15 @@
-let name = "xyz";
-let age = "20";
-let boolValue = true;
-console.log(name);
-console.log("age:", age);
-console.log("boolValue:", boolValue);
-console.log("typeof name", typeof name)
-console.log("typeof age", typeof age);
-console.log("typeof boolValue",typeof boolValue);
+let name = "xyz"; //string
+let age = 23; //number
+let boolVal = false; //boolean
+console.log("name: ", name);
+console.log("age: ", age);
+console.log("boolVal: ", boolVal);
+console.log("Type of variables");
+
+console.log("Type of name: ", typeof name);
+console.log("Type of age: ", typeof age);
+console.log("Type of boolVal: ", typeof boolVal);
+
+name = 23;
+
+console.log(typeof name);

@@ -1,14 +1,14 @@
-function fun(){
+function fun() {
   var a = 20;
   let b = 30;
-    const pi = 3.24;
-    console.log("blockScope:");
-  console.log(a);
-  console.log(b);
-  console.log(pi);
+  const pi = 3.14;
+  console.log("block Scope:");
+  console.log("value of a inside the function: ", a);
+  console.log("value of b inside the function: ", b);
+  console.log("value of pi inside the function: ", pi);
 }
 fun();
-console.logq("Outside the function:");
-console.log(a);
-console.log(b);
-console.log(pi);
+console.log("outside the function:");
+console.log("value of a outside the function: ", a);
+console.log("value of b outside the function: ", b); //error
+console.log("value of pi outside the function: ", pi); //error
